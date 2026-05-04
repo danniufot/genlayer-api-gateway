@@ -1,0 +1,17 @@
+{
+  "name": "genlayer-api-gateway",
+  "version": "1.0.0",
+  "description": "Secure API Gateway library for GenLayer Intelligent Contracts — Tools & Infrastructure contribution",
+  "contracts": [
+    "contracts/api_gateway.py",
+    "contracts/weather_bet_example.py"
+  ],
+  "networks": {
+    "localnet": {
+      "rpc": "http://localhost:4000/api"
+    },
+    "testnet": {
+      "rpc": "https://rpc.genlayer.foundation"
+    }
+  }
+}
